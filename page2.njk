@@ -1,0 +1,43 @@
+
+{# The main page of the application #}
+
+{% extends "_common.njk" %}
+
+{% block content %}
+<p>
+<h1> Team:</h1>
+
+  <div class="card-deck">
+  <div class="card border-dark mb-3">
+    <img class="card-img-top rounded-circle z-depth-0" src="./img/teamMember/M1.jpg" alt="Card image cap">
+    <div class="card-body text-dark"">
+      <h5 class="card-title">Pika, CEO</h5>
+      <p class="card-text">Travaillant depuis 5 ans dans la tech, il décide de se lancer dans la création d'une start-up pour...</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted"></small>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top rounded-circle z-depth-0" src="./img/teamMember/M2.jpg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Belle, RH</h5>
+      <p class="card-text">Après avoir rencontré Pika lors d'un colloque important dans leur domaine, </p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted"></small>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top rounded-circle z-depth-0" src="./img/teamMember/M3.jpeg" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">Bulle, developer</h5>
+      <p class="card-text">Collègue de Belle, elle a été séduite par l'idée innovante de cette entreprise est s'est lancée dans sa création avec Pika</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted"></small>
+    </div>
+  </div>
+</div>
+</p>
+{% endblock %}

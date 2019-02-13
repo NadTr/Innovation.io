@@ -8,8 +8,8 @@ Shared styles for javascript exercices
 */
 
 :root {
-  --becode-main-blue: #16232E;
-  --becode-light-blue: #63C3D1;
+  --becode-main-blue: #030349;
+  --becode-light-blue: #3F94F4;
   --becode-alt-blue: #245060;
 }
 
@@ -20,9 +20,9 @@ html {
 body {
   height: 100%;
   padding-top: 17.5vh;
-  background: var(--becode-main-blue) url(/_shared/img/becode-seal.png) top .5rem center no-repeat;
-  background-size: auto 25vh;
-}
+  background: var(--becode-main-blue) //url(/_shared/img/becode-seal.png) top .5rem center no-repeat;
+//   background-size: auto 25vh;
+ }
 
 .container {
   position: relative;
@@ -73,4 +73,3 @@ header h2 span {
   text-align: center;
   transform: rotate(7.5deg);
 }
-
