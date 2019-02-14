@@ -17,7 +17,7 @@ $gray-800: #222 !default;
 $gray-900: #212121 !default;
 $black:    #000 !default;
 
-$blue:    #2196F3 !default;
+$blue:    #5DADFC !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #e83e8c !default;
@@ -35,7 +35,7 @@ $info:          $cyan !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $white !default;
-$dark:          $gray-800 !default;
+$dark:          $gray-900 !default;
 
 $yiq-contrasted-threshold:  170 !default;
 
@@ -43,7 +43,7 @@ $enable-gradients: true;
 
 // Body
 
-$body-color:    $gray-700 !default;
+$body-color:    $gray-300 !default;
 
 // Fonts
 
@@ -55,25 +55,25 @@ $font-weight-base: 400 !default;
 
 // Buttons
 
-$input-btn-padding-y:       0.8rem !default;
+$input-btn-padding-y:       0.3rem !default;
 $input-btn-padding-x:       1rem !default;
 
 // Forms
 
-$input-padding-y:                1rem !default;
+$input-padding-y:                .3rem !default;
 $input-padding-x:                0 !default;
 
 $input-padding-y-sm:             $font-size-base !default;
 $input-padding-x-sm:             0 !default;
 
-$input-padding-y-lg:             ($font-size-base * 1.25) !default;
+$input-padding-y-lg:             ($font-size-base * 2.25) !default;
 $input-padding-x-lg:             0 !default;
 
-$input-bg:                       transparent !default;
-$input-disabled-bg:              transparent !default;
+$input-bg:                       rgba(180, 194, 218,0.7) !default;
+$input-disabled-bg:              $gray-900 !default;
 
-$input-color:                    $gray-600 !default;
-$input-border-color:             transparent !default;
+$input-color:                    $gray-900 !default;
+$input-border-color:             $gray-900 !default;
 $input-border-width:             0rem !default;
 
 $input-border-radius:            0 !default;
@@ -104,7 +104,7 @@ $nav-tabs-border-color:                       transparent !default;
 
 // Navbar
 
-$navbar-padding-y:                  1rem !default;
+//$navbar-padding-y:                  .5rem !default;
 
 $navbar-dark-color:                 rgba($white,.75) !default;
 $navbar-dark-hover-color:           $white !default;

@@ -3,7 +3,87 @@
 {% extends "_common.njk" %}
 
 {% block content %}
-<p>
-Contact: email:...
-</p>
+<div class="container">
+
+<div class="content display-flex">
+
+<!--Grid row-->
+<div class="row">
+
+  <!--Grid column-->
+  <div class="col-md-6 mb-4">
+
+  <h1>Nous joindre:</h1>
+    <h3><i class="fas fa-map-marker-alt">   </i>      Pôle image</h3> <h5>     Rue de Mulhouse, 36 - 4020 Liège</h5>
+    <h5></h5>
+    <h5><i class="fas fa-phone">   </i>   +32 41 62 12 70</h5>
+    <h5><i class="fas fa-at">   </i>   info@innovation.io</h5>
+    <h5></h5>
+    <h5>  </h5>
+
+    <h5>Heures d'ouverture</h5>
+    <h5>du lundi au vendredi de 9h à 17h</h5>
+
+  </div>
+  <!--Grid column-->
+
+  <!--Grid column-->
+  <div class="col-md-6 mb-4">
+
+
+        <!--Google map-->
+        <div id="map-container-google-9" class="z-depth-1-half map-container-5">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2530.6813219842243!2d5.584621050868811!3d50.633036579400375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf2c9f9204e1bb92b!2zUMO0bGUgaW1hZ2UgZGUgTGnDqGdl!5e0!3m2!1sfr!2sbe!4v1550140957597"
+          width=100% height=300 frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+
+
+  </div>
+  <!--Grid column-->
+
+</div>
+<!--Grid row-->
+<form class="form border-light mb-3">
+  <fieldset>
+    <legend><h2>Nous contacter:</h2></legend>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      <p id="emailHelp" class="form-text text-right">Nous ne partagerons pas votre email à des tiers</p>
+    </div>
+    <div class="form-group">
+      <label for="exampleSelect1">A quel sujet</label>
+      <select class="form-control" id="exampleSelect1">
+        <option>Achat</option>
+        <option>Vente</option>
+        <option>Presse</option>
+        <option></option>
+        <option>Postuler</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="exampleTextarea">Votre message</label>
+      <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputFile">Si vous désirez joindre un fichier</label>
+      <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+      <small id="fileHelp" class="form-text text-muted"></small>
+    </div>
+    <fieldset class="form-group">
+      <legend><h4>Newsletter</h4></legend>
+      <div class="form-check">
+        <label class="form-check-label">
+          <input class="form-check-input" type="checkbox" value="" checked="">
+          Desirez-vous être informés de nos nouveaux produits?
+          </label>
+      </div>
+
+    </fieldset>
+    <button type="submit" class="btn btn-dark">Submit</button>
+  </fieldset>
+</form>
+</div>
+</div>
+
 {% endblock %}
