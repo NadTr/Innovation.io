@@ -707,7 +707,7 @@ select.form-control {
 }
 .comment{
   .card {
-    background-color: rgba(8, 24, 77,.8);
+    background-color: rgba(199, 198, 198,.2);
     box-shadow: 0 1px 4px rgba(0,0,0,.4);
     color: white;
     max-width: 35rem;
@@ -720,9 +720,9 @@ select.form-control {
     &.border-light,
     &.border-dark
     {
-      border-width: 5px;
-      border-radius: 23rem;
-    padding: 0 2rem;
+      border-width: 1px;
+      border-radius: 2rem;
+    padding: 0 1.5rem;
     }
   }
 }
