@@ -1,7 +1,7 @@
 
 # Bootstrap Exercice - Innovation.io
 
-To access the [Website](https://nadtr.github.io/Innovation.io/).
+To access the site on [Github Page](https://nadtr.github.io/Innovation.io/).
 
 To launch it in local, install `npm install` then run `npm run dev`.
 To build it, run `npm run build`.
